@@ -80,6 +80,8 @@ main {
     box-shadow: 5px 5px 10dpx yellow; 
 }
 .herobox1 {
+    /* padding adds spacing where we need it */
+    padding-top: 15px; 
     flex: 2; 
    
     padding-left: 5% ; 
