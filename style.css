@@ -1,0 +1,166 @@
+/* here is our style we are styling the container */
+.container {
+    width: 1024px; 
+
+    /* min-height gives us the minium but 
+    it can go bigger if the content that we 
+    put in it goes bigger that what we have */
+    min-height: 300px; 
+    margin-left:auto; 
+    margin-right:auto;
+}
+html {
+    height: 100%; 
+a {
+    color: white; 
+    text-decoration: none; 
+}
+}
+body{
+    background-image: linear-gradient(-45deg, rgb(0, 170, 255), rgba(246, 255, 0, 0.719));
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    line-height: 1.25rem;
+    padding-bottom: 0.5rem; 
+}
+header {
+  
+    min-height: 100px;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2%; 
+    border-bottom: 1px solid gray; 
+   
+}
+nav {
+    width: auto; 
+    display: flex; 
+    gap: 2rem; 
+    border-bottom: 1px solid gray; 
+}
+
+main {
+    min-height: 200px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+}
+
+.cards {
+    
+   
+    display:flex; 
+    justify-content: space-between; 
+    text-align: center; 
+}
+.card1 {
+    background-image: url(/images/california.png);
+    background-size: cover; 
+    min-height: 300px; 
+    width: 30%; 
+    box-shadow: 5px 5px 10px blue; 
+    
+}
+.card2 {
+
+    background-image: url(/images/bali.png);
+    background-size: cover; 
+    min-height: 300px; 
+    width: 30%; 
+    box-shadow: 5px 5px 10px orange; 
+}
+.card3 {
+    background-image: url(/images/miami.png); 
+    background-size: cover; 
+    background-position: bottom; 
+    min-height: 300px; 
+    width: 30%; 
+    box-shadow: 5px 5px 10dpx yellow; 
+}
+.herobox1 {
+    flex: 2; 
+   
+    padding-left: 5% ; 
+}
+.herobox2 {
+    flex: 1; 
+
+    padding: 20px; 
+    
+}
+.top-bar{
+    display:flex; 
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; 
+}
+h1 {
+    font-size: 50px;
+    padding-bottom: 0.35rem; 
+    margin-bottom: 1rem; 
+    font-family: 'Playfair Display', serif;
+    text-shadow: 5px 5px 10px blue; 
+}
+h2 {
+    font-size: 25px; 
+    font-size: 2rem; 
+    font-family: 'Playfair Display'; 
+    margin-top: 20px; 
+}
+.cards p {
+    font-size: 0.85rem;
+    line-height: 1.2rem;
+    margin: 10px 30px 20px 30px; 
+}
+.cards img {
+    font-size: 10rem;
+    padding-top: 50px; 
+
+}
+.cards a {
+    color:white; 
+    text-decoration: none;
+}
+/* create a class to style our button a taga */
+.mybutton {
+    background-color: white; 
+    text-decoration: none; 
+    color: green; 
+    font-family: 'Playfair Display';
+    padding: 11px 25px 11px 25px; 
+    /* display: inline-block;  */
+    display: inline-flex; 
+    align-items: center; 
+    justify-content: center;
+    margin-bottom: 10px; 
+    white-space: nowrap; 
+    border-radius: 5px; 
+    box-shadow: 1px 3px 3px rgba(255, 166, 0, 0.508); 
+}
+a.mybutton {
+    display: inline-block; 
+    margin-top: 1 0px; 
+}
+nav a.button {
+    margin-left: 50px; 
+  
+}
+.navbutton{ 
+    border-style: solid; 
+    font-family: 'Playfair Display', serif; 
+    border-color: white; 
+    border-width: 1px;
+    padding: 11px 25px 11px 25px; 
+    /* display: inline-block;  */
+    display: inline-flex; 
+    align-items: center; 
+    justify-content: center;
+    margin-bottom: 10px; 
+    white-space: nowrap; 
+    border-radius: 5px; 
+    box-shadow: 1px 3px 3px rgba(255, 166, 0, 0.508); 
+
+
+}
