@@ -34,7 +34,8 @@ header {
     padding-left: 2%; 
     border-bottom: 1px solid gray; 
    
-}
+} 
+/* for a dropdown nav we need to put the nav buttons in a div */
 nav {
     width: auto; 
     display: flex; 
@@ -155,6 +156,7 @@ nav a.button {
   
 }
 .navbutton{ 
+    position: relative; 
     border-style: solid; 
     font-family: 'Playfair Display', serif; 
     border-color: white; 
@@ -168,6 +170,8 @@ nav a.button {
     white-space: nowrap; 
     border-radius: 5px; 
     box-shadow: 1px 3px 3px rgba(255, 166, 0, 0.508); 
+    display: inline-block; 
+    
 }
 .testimonials {
    display: flex; 
@@ -185,4 +189,26 @@ nav a.button {
     /* pseudo call to carget the last p tag
     in the box */
     font-size: .8rem; 
+}
+/* for our dropdown menu to not display except for when hovered over */
+.dropdown {
+    display: none; 
+    position: absolute;  
+    z-index: 1; 
+    /* use padding because margin will leave a gap that we can't close */
+    padding-top: 20px; 
+    text-align: center; 
+    width: 200px; 
+
+}
+.navbutton:hover .dropdown {
+    display: block; 
+}
+/* c c acompound selector to style only nav buttons that are inside a nav -> dropdown -> nav */
+.dropdown .navbutton {
+    display: block; 
+    width: 90px; 
+    background-color: rgb(46, 177, 122)
+    
+
 }
