@@ -204,7 +204,7 @@ nav a.button {
 .navbutton:hover .dropdown {
     display: block; 
 }
-/* c c compound selector to style only nav buttons that are inside a nav -> dropdown -> nav */
+/* c c acompound selector to style only nav buttons that are inside a nav -> dropdown -> nav */
 .dropdown .navbutton {
     display: block; 
     width: 90px; 
