@@ -49,6 +49,10 @@ main {
     align-items: center; 
     justify-content: space-between;
 }
+.main2 {
+    min-height: 300px; 
+
+}
 
 .cards {
     
@@ -209,6 +213,7 @@ nav a.button {
     display: block; 
     width: 90px; 
     background-color: rgb(46, 177, 122)
-    
-
+}
+#textformstyle {
+    background-color: pink; 
 }
