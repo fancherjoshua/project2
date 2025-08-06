@@ -12,31 +12,46 @@
     <meta name="description" content="contact details for joshua fancher seattle northeaster">
 
 </head>
-    <body>
-        <div class="container">
-            <header>
-                <div class="logo">
-                    <a href="/index.html"><img src="/images/jf-logo.png" alt="website logo for personal website" width="10%">
-                    </a>
-                </div>
-                <nav >
-                    <a href="#" class="mybutton">Book Online!</a>
-                    <a href="#" class="mybutton">About</a>
-                    <a href="#" class="navbutton">Contact</a>
-                </nav>
-               
-            </header>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <a href="/index.html"><img src="/images/jf-logo.png" alt="website logo for personal website"
+                        width="10%">
+                </a>
+            </div>
+            <nav>
+                <a href="#" class="mybutton">Book Online!</a>
+                <a href="#" class="mybutton">About</a>
+                <a href="#" class="navbutton">Contact</a>
+            </nav>
+
+        </header>
 
         <div class="main2">
             <h1> Contact Us </h1>
             <p>Lines of text before our form data</p>
             <!-- we will put in a form here to collect user specified data -->
-             <form action="mail.php" method="get">
-                <input type="text" name="name" id="name">
-                <input type="email" name="email" id="email">
-                <input type="submit" value="Fire Away">
+            <!-- placeholder is text that goes in the box a label will be different -->
+             <!-- need to wrap our form input fields in divs for block level formatting -->
+              <!-- style the input wrapper divs with some margin -->
+            <form action="mail.php" method="get">
+                <div class="inputwrapper">
+                    <label for="name">Your Name</label>
+                </div>
+                <div class="inputwrapper">
+                    <input type="text" name="name" id="name" placeholder="your name here">
+                </div>
 
-             </form>
+                <div class="inputwrapper">
+                    <input type="email" name="email" id="email" placeholder="PuT Your eMail aDddress">
+                </div>
+                <div class="inputwrapper">
+                    <input type="submit" value="Fire Away">
+                </div>
+
+            </form>
         </div>
 
         <div class="cards">
